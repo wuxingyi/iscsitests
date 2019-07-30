@@ -1,0 +1,4878 @@
+Thu Jul 25 11:34:50 CST 2019
+processing the 1 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 11:40:33 CST 2019
+processing the 2 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 11:46:48 CST 2019
+processing the 3 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 11:53:51 CST 2019
+processing the 4 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 12:01:32 CST 2019
+processing the 5 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 12:09:59 CST 2019
+processing the 6 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "client create/update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}{
+  "message": "client masking update successful"
+}Thu Jul 25 12:19:22 CST 2019
+processing the 7 target
+{
+  "message": "Target defined successfully"
+}{
+  "message": "Gateway creation successful"
+}starting create luns
+{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Target LUN mapping updated successfully"
+}{
+  "message": "disk create/update successful"
+}{
+  "message": "Add target LUN mapping failed - failed on oceanstore-wuxingyi-node-241. Failed to add the LUN - failed to add rbd/test7_52 to LIO - error([Errno 2] No such file or directory)"
+}
