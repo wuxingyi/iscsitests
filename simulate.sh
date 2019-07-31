@@ -9,6 +9,48 @@ apis() {
     curl --insecure --user admin:admin -X GET http://$ENDPOINT/api
 }
 
+
+s_remove_all_clients_of_target() {
+    NEWTARGET="$TARGET""didi"
+
+    for k in `seq 1 16`
+    do
+        time curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/clients/$NEWTARGET"$k"
+    done
+}
+
+s_remove_all_clients() {
+    NEWTARGET="$TARGET""didi1"
+    clientsuffix="test"
+    diskstring=""
+
+    for k in `seq 1 1`
+    do
+
+        for j in `seq 1 200`
+        do
+            NEWCLIENT="$TARGET""$clientsuffix"
+            time curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/client/$NEWTARGET/$NEWCLIENT"$j"
+        done
+    done
+}
+
+s_remove_all_disks_from_client() {
+    NEWTARGET="$TARGET""didi1"
+    clientsuffix="test"
+    diskstring=""
+
+    for k in `seq 1 1`
+    do
+
+        for j in `seq 1 200`
+        do
+            NEWCLIENT="$TARGET""$clientsuffix"
+            time curl --insecure --user admin:admin -d handleall=true -X DELETE http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j"
+        done
+    done
+}
+
 s_remove_disks_from_client() {
     NEWTARGET="$TARGET""didi1"
     clientsuffix="test"
@@ -35,7 +77,7 @@ s_adddisks_toclient() {
     clientsuffix="test"
     diskstring=""
 
-    for i in `seq 1 4`
+    for i in `seq 1 3`
     do
         diskstring=$diskstring`echo -n "-d disks=rbd/test1_$i"" "`
     done
@@ -43,11 +85,11 @@ s_adddisks_toclient() {
     for k in `seq 1 1`
     do
 
-        for j in `seq 50 50`
+        for j in `seq 41 200`
         do
             NEWCLIENT="$TARGET""$clientsuffix"
-            time create_client $NEWTARGET  $NEWCLIENT"$j""didi"
-            time curl --insecure --user admin:admin $diskstring -X PUT http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j""$j"
+            time create_client $NEWTARGET  $NEWCLIENT"$j"
+            time curl --insecure --user admin:admin -d handleall=true -X PUT http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j"
         done
     done
 }
@@ -69,7 +111,7 @@ addmappedlun() {
 }
 
 create_client() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/client/$1/$2
+    curl --insecure --user admin:admin -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/client/$1/$2
 }
 
 remove_client() {
@@ -365,9 +407,9 @@ s_aclgroup_multitarget() {
 }
 
 s_singletarget_nomappedlun() {
-    TARGETS_NR=1
-    LUN_PER_TARGET_NR=128
-    CLIENTS_NR=0
+    TARGETS_NR=16
+    LUN_PER_TARGET_NR=1
+    CLIENTS_NR=32
     for k in `seq 1 $TARGETS_NR`
     do
         date
@@ -453,8 +495,12 @@ addpureclient() {
 ##remove_client_and_disk_from_group iqn.8888-08.com.wuxingididi1 dididi2
 #add_client_and_disk_to_group iqn.8888-08.com.wuxingididi1 dididi2
 #apis
-time s_singletarget_nomappedlun
+#time s_singletarget_nomappedlun
 #s_adddisks_toclient
 #s_remove_disks_from_client
 #create_disk didi 10
-get_target_luns "$TARGET""didi1"
+#get_target_luns "$TARGET""didi1"
+#s_adddisks_toclient
+#s_remove_all_disks_from_client
+#s_remove_all_clients
+s_remove_all_clients_of_target

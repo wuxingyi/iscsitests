@@ -17,15 +17,17 @@ curl --insecure --user admin:admin -d ip_address=172.20.13.241 -X PUT http://$EN
 curl --insecure --user admin:admin -d create_image=true -d mode=create -d size=10G -d count=1 -X PUT http://$ENDPOINT/api/disk/$POOL/$DISK
 
 # 4. create client
-curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/client/$TARGET/$CLIENT
+#curl --insecure --user admin:admin -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/client/$TARGET/$CLIENT
+#curl --insecure --user admin:admin  -d username=$USERNAME -d password=$PASSWORD -X PUT http://$ENDPOINT/api/client/$TARGET/$CLIENT
+curl --insecure --user admin:admin  -d username=$USERNAME -d password=asdf -X PUT http://$ENDPOINT/api/client/$TARGET/$CLIENT
 
 # 5. set chap auth for client
-curl --insecure --user admin:admin -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/clientauth/$TARGET/$CLIENT
+#curl --insecure --user admin:admin -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/clientauth/$TARGET/$CLIENT
 
 # 6. add to targetlun
-curl --insecure --user admin:admin -d disk=$POOL/$DISK -X PUT http://$ENDPOINT/api/targetlun/$TARGET
-
-# 7. add to clientlun
-curl --insecure --user admin:admin -d disk=$POOL/$DISK -X PUT http://$ENDPOINT/api/clientlun/$TARGET/$CLIENT
+#curl --insecure --user admin:admin -d disk=$POOL/$DISK -X PUT http://$ENDPOINT/api/targetlun/$TARGET
+#
+## 7. add to clientlun
+#curl --insecure --user admin:admin -d disk=$POOL/$DISK -X PUT http://$ENDPOINT/api/clientlun/$TARGET/$CLIENT
 #ceph osd blacklist ls
 #ceph osd blacklist clear
