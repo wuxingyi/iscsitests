@@ -9,6 +9,52 @@ apis() {
     curl --insecure --user admin:admin -X GET http://$ENDPOINT/api
 }
 
+list_user_groups() {
+    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/v2/usergroups
+}
+
+user_group() {
+    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
+    for i in `seq 1 10`
+    do
+        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhahahaha$i
+    done
+
+    sleep 5
+    for i in `seq 1 10`
+    do
+        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroup/testasdf2/iqn.8888-08.com.wuxingididhahahaha$i
+    done
+}
+
+
+create_usergroups() {
+    for i in `seq 1 100`
+    do
+        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf$i
+    done
+}
+
+delete_usergroups() {
+    for i in `seq 1 100`
+    do
+        curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/usergroups/testasdf$i
+    done
+}
+
+create_users() {
+    for i in `seq 1 100`
+    do
+        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhaha"$i"
+    done
+}
+
+delete_users() {
+    for i in `seq 1 100`
+    do
+        curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhaha"$i"
+    done
+}
 
 s_remove_all_clients_of_target() {
     NEWTARGET="$TARGET""didi"
@@ -503,4 +549,10 @@ addpureclient() {
 #s_adddisks_toclient
 #s_remove_all_disks_from_client
 #s_remove_all_clients
-s_remove_all_clients_of_target
+#s_remove_all_clients_of_target
+#create_users
+#delete_users
+#create_usergroups
+#delete_usergroups
+#user_group
+list_user_groups
