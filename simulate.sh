@@ -160,18 +160,6 @@ s_adddisks_toclient() {
     done
 }
 
-create_hostgroup() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/hostgroup/$1/$2
-}
-
-add_client_and_disk_to_group() {
-    curl --insecure --user admin:admin -d members=iqn.8888-08.com.wuxingididiclient1,iqn.8888-08.com.wuxingididiclient2 -d disks=rbd/test1_1,rbd/test1_2 -X PUT http://$ENDPOINT/api/hostgroup/$1/$2
-}
-
-remove_client_and_disk_from_group() {
-    curl --insecure --user admin:admin -d action=remove -d members=iqn.8888-08.com.wuxingididiclient2,iqn.8888-08.com.wuxingididiclient3 -d disks=rbd/test1_1 -X PUT http://$ENDPOINT/api/hostgroup/$1/$2
-}
-
 addmappedlun() {
     curl --insecure --user admin:admin -d disk=rbd/$3 -X PUT http://$ENDPOINT/api/clientlun/$1/$2
 }
@@ -537,25 +525,6 @@ s_add_4_users_no_mappedlun() {
     done
 }
 
-s_process_hostgroup() {
-    TARGETS_NR=1
-    LUN_PER_TARGET_NR=128
-    CLIENTS_NR=100
-    GROUP_NAME=didi
-
-    for k in `seq 1 $TARGETS_NR`
-    do
-        NEWTARGET="$TARGET""didi""$k"
-
-        # create 2 clients
-        for j in `seq 1 $CLIENTS_NR`
-        do
-            NEWCLIENT="$TARGET"didiclientyou"$RANDOM"
-            create_client $NEWTARGET  $NEWCLIENT"$j"
-        done
-    done
-}
-
 addpureclient() {
     for k in `seq 1 1`
     do
@@ -590,7 +559,7 @@ addpureclient() {
 #delete_users
 #create_usergroups
 #delete_usergroups
-user_group
+#user_group
 #list_user_groups
 #get_user_auth
 #create_disk test 100
