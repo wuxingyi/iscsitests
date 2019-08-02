@@ -1,9 +1,14 @@
 ENDPOINT=172.20.13.241:5000
 TARGET=iqn.8888-08.com.wuxingi
-USERNAME=myiscsiusername
-PASSWORD=myiscsipassword
+USERNAME=mysiusername
+PASSWORD=mysipassword
 POOL=rbd
 DISK=$1
+
+discoveryauth() {
+    curl --insecure --user admin:admin -d username=$USERNAME"2" -d password=$PASSWORD"2" -d mutual_username=myiscsiusername -d mutual_password=myiscsipassword -X PUT http://$ENDPOINT/api/discoveryauth
+}
+
 
 apis() {
     curl --insecure --user admin:admin -X GET http://$ENDPOINT/api
@@ -13,11 +18,19 @@ list_user_groups() {
     curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/v2/usergroups
 }
 
-user_group() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
+get_user_auth() {
     for i in `seq 1 10`
     do
-        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhahahaha$i
+        curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhahahaha$i
+    done
+}
+
+user_group() {
+    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
+    for i in `seq 11 20`
+    do
+        #curl --insecure --user admin:admin -d username=$USERNAME"2" -d password=$PASSWORD"2" -d mutual_username=myiscsiusername8 -d mutual_password=myiscsipassword0 -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhahahaha$i
+        curl --insecure --user admin:admin -d username=$USERNAME"$i" -d password=$PASSWORD"$i" -d mutual_username="$USERNAME""$i" -d mutual_password="$PASSWORD""$i" -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhahahaha$i
     done
 
     sleep 5
@@ -42,10 +55,17 @@ delete_usergroups() {
     done
 }
 
+get_users() {
+    for i in `seq 1 1`
+    do
+        curl --insecure --user admin:admin  -X GET http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhaha"$i"
+    done
+}
+
 create_users() {
     for i in `seq 1 100`
     do
-        curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhaha"$i"
+        curl --insecure --user admin:admin  -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/v2/user/iqn.8888-08.com.wuxingididhaha"$i"
     done
 }
 
@@ -174,7 +194,19 @@ create_gateway() {
 create_disk() {
     #DISK=$1
     #SIZE="$2"M
-    curl --insecure --user admin:admin -d create_image=true -d mode=create -d size=$2"M" -d count=1 -X PUT http://$ENDPOINT/api/disk/rbd/$1
+    curl --insecure --user admin:admin -d create_image=true -d mode=create -d size=$2"M" -X PUT http://$ENDPOINT/api/disk/rbd/$1
+}
+
+resize_disk() {
+    #DISK=$1
+    #SIZE="$2"M
+    curl --insecure --user admin:admin -d mode=resize -d size=$2"M" -X PUT http://$ENDPOINT/api/disk/rbd/$1
+}
+
+get_disk() {
+    #DISK=$1
+    #SIZE="$2"M
+    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/disk/rbd/$1
 }
 
 remove_disk() {
@@ -257,11 +289,14 @@ s_getqos_1000_disks() {
     done
 }
 
-s_testqos() {
+s_testqos_and_test_size() {
     time create_disk didi 10
     time set_qos 10 10 didi
     time get_qos didi
-    time remove_disk didi
+    time get_disk didi
+    time resize_disk didi 100
+    time get_disk didi
+    #time remove_disk didi
 }
 
 s_test_mapping() {
@@ -551,8 +586,13 @@ addpureclient() {
 #s_remove_all_clients
 #s_remove_all_clients_of_target
 #create_users
+#get_users
 #delete_users
 #create_usergroups
 #delete_usergroups
-#user_group
-list_user_groups
+user_group
+#list_user_groups
+#get_user_auth
+#create_disk test 100
+ #s_test_mapping
+#discoveryauth
