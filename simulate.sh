@@ -143,7 +143,7 @@ s_adddisks_toclient() {
     clientsuffix="test"
     diskstring=""
 
-    for i in `seq 1 3`
+    for i in `seq 1 1`
     do
         diskstring=$diskstring`echo -n "-d disks=rbd/test1_$i"" "`
     done
@@ -151,11 +151,11 @@ s_adddisks_toclient() {
     for k in `seq 1 1`
     do
 
-        for j in `seq 41 200`
+        for j in `seq 300 301`
         do
             NEWCLIENT="$TARGET""$clientsuffix"
             time create_client $NEWTARGET  $NEWCLIENT"$j"
-            time curl --insecure --user admin:admin -d handleall=true -X PUT http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j"
+            time curl --insecure --user admin:admin $diskstring -X PUT http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j"
         done
     done
 }
@@ -198,6 +198,12 @@ get_disk() {
 }
 
 remove_disk() {
+    #DISK=$1
+    #默认情况下，保留磁盘
+    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/disk/rbd/$1
+}
+
+remove_disk_without_mercy() {
     #DISK=$1
     curl --insecure --user admin:admin -d preserve_image=false -X DELETE http://$ENDPOINT/api/disk/rbd/$1
 }
@@ -264,6 +270,7 @@ s_remove_1000_disks() {
     done
 }
 s_setqos_1000_disks() {
+    #s_create_1000_disks
     for i in `seq 1 1000`
     do
         time set_qos 1000 1000 didi"$i"
@@ -476,9 +483,9 @@ s_aclgroup_multitarget() {
 }
 
 s_singletarget_nomappedlun() {
-    TARGETS_NR=16
-    LUN_PER_TARGET_NR=1
-    CLIENTS_NR=32
+    TARGETS_NR=1
+    LUN_PER_TARGET_NR=4
+    CLIENTS_NR=4
     for k in `seq 1 $TARGETS_NR`
     do
         date
@@ -539,6 +546,32 @@ addpureclient() {
     done
 
 }
+
+get_snapshot() {
+    curl --insecure --user admin:admin -X GET http://172.20.13.241:5000/api/disksnap/rbd/$1
+}
+
+create_snapshot() {
+    curl --insecure --user admin:admin -d mode=create -X PUT http://172.20.13.241:5000/api/disksnap/rbd/$1/$2
+}
+
+remove_snapshot() {
+    curl --insecure --user admin:admin -X DELETE http://172.20.13.241:5000/api/disksnap/rbd/$1/$2
+}
+
+s_snapshot() {
+    create_disk didi55 10
+    create_snapshot didi55 testsnap1
+    create_snapshot didi55 testsnap2
+    get_snapshot didi55 
+    remove_snapshot didi55 testsnap1
+    remove_snapshot didi55 testsnap2
+    get_snapshot didi55 
+    remove_disk didi55
+    rbd ls
+}
+
+
 #s_client_simpletest
 #time addpureclient
 ##time s_add_4_users_no_mappedlun
@@ -565,3 +598,9 @@ addpureclient() {
 #create_disk test 100
  #s_test_mapping
 #discoveryauth
+#s_test_unmapping
+#s_test_mapping
+#s_remove_all_clients
+#s_remove_all_clients_of_target
+#s_setqos_1000_disks
+s_snapshot
