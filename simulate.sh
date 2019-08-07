@@ -62,6 +62,10 @@ get_users() {
     done
 }
 
+create_user() {
+    curl --insecure --user admin:admin  -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/v2/user/$1
+}
+
 create_users() {
     for i in `seq 1 100`
     do
@@ -161,7 +165,7 @@ s_adddisks_toclient() {
 }
 
 addmappedlun() {
-    curl --insecure --user admin:admin -d disk=rbd/$3 -X PUT http://$ENDPOINT/api/clientlun/$1/$2
+    curl --insecure --user admin:admin -d disks=rbd/$3 -X PUT http://$ENDPOINT/api/clientlun/$1/$2
 }
 
 create_client() {
@@ -342,6 +346,7 @@ s_addluntoclient() {
     create_gateway $TARGET2
     create_disk test 1024
     map_lun_to_target test $TARGET2
+    create_user $CLIENT
     create_client $TARGET2  $CLIENT
     addmappedlun $TARGET2  $CLIENT test
 }
@@ -603,4 +608,7 @@ s_snapshot() {
 #s_remove_all_clients
 #s_remove_all_clients_of_target
 #s_setqos_1000_disks
-s_snapshot
+#s_snapshot
+#list_user_groups
+#get_user_auth
+s_addluntoclient
