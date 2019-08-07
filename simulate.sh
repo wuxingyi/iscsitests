@@ -576,6 +576,18 @@ s_snapshot() {
     rbd ls
 }
 
+bind_group() {
+    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroup/target/$1/$2
+}
+
+s_group_bind() {
+    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
+    create_target iqn.8888-08.com.wuxingididhahahaha
+    create_target iqn.8888-08.com.wuxingididhahahaha2
+    bind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha
+    bind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha2
+}
+
 
 #s_client_simpletest
 #time addpureclient
@@ -611,4 +623,5 @@ s_snapshot() {
 #s_snapshot
 #list_user_groups
 #get_user_auth
-s_addluntoclient
+#s_addluntoclient
+s_group_bind
