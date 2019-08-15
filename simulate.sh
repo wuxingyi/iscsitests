@@ -67,9 +67,12 @@ get_users() {
 }
 
 create_user() {
-    curl --insecure --user admin:admin  -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/v2/user/$1
+    curl --insecure --user admin:admin  -d client_iqn=$1 -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/v2/user
 }
 
+remove_user() {
+    curl --insecure --user admin:admin  -d client_iqn=$1 -X DELETE http://$ENDPOINT/api/v2/user
+}
 create_users() {
     for i in `seq 1 100`
     do
@@ -169,28 +172,28 @@ s_adddisks_toclient() {
 }
 
 addmappedlun() {
-    curl --insecure --user admin:admin -d disks=rbd/$3 -X PUT http://$ENDPOINT/api/clientlun/$1/$2
+    #curl --insecure --user admin:admin -d disks=rbd/$3 -X PUT http://$ENDPOINT/api/v2/clientlun/$1/$2
+    #time curl --insecure --user admin:admin -d handleall=true -X PUT http://$ENDPOINT/api/clientlun/iqn.8888-08.com.wuxingididi1/$NEWCLIENT"$j"
+    curl --insecure --user admin:admin -d target_iqn=$1 -d client_iqn=$2 -d handleall=true -X PUT http://$ENDPOINT/api/v2/clientlun
 }
 
+removemappedlun() {
+    #curl --insecure --user admin:admin -d disks=rbd/$3 -X DELETE http://$ENDPOINT/api/v2/clientlun/$1/$2
+    time curl --insecure --user admin:admin -d handleall=true -d target_iqn=$1 -d client_iqn=$2 -X DELETE http://$ENDPOINT/api/v2/clientlun
+}
 create_client() {
-    curl --insecure --user admin:admin -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/client/$1/$2
+    curl --insecure --user admin:admin -d target_iqn=$1 -d client_iqn=$2 -d username=$USERNAME -d password=$PASSWORD -d mutual_username=myiscsiusername2 -d mutual_password=myiscsipassword2 -X PUT http://$ENDPOINT/api/v2/client
 }
 
 remove_client() {
-    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/client/$1/$2
+    curl --insecure --user admin:admin -d target_iqn=$1 -d client_iqn=$2 -X DELETE http://$ENDPOINT/api/v2/client
 }
 
-remove_gateway() {
-    curl --insecure --user admin:admin -d ip_address=172.20.13.241 -X DELETE http://$ENDPOINT/api/gateway/$1/oceanstore-wuxingyi-node-241
-}
-
-create_gateway() {
-    curl --insecure --user admin:admin -d ip_address=172.20.13.241 -X PUT http://$ENDPOINT/api/gateway/$1/oceanstore-wuxingyi-node-241
-}
 create_disk() {
     #DISK=$1
     #SIZE="$2"M
-    curl --insecure --user admin:admin -d create_image=true -d mode=create -d size=$2"M" -X PUT http://$ENDPOINT/api/disk/rbd/$1
+    #curl --insecure --user admin:admin -d create_image=true -d mode=create -d size=$2"M" -X PUT http://$ENDPOINT/api/disk/rbd/$1
+    curl --insecure -d create_image=true -d pool=rbd -d image=$1 -d mode=create -d size=$2"M" -X PUT http://$ENDPOINT/api/disk
 }
 
 resize_disk() {
@@ -217,48 +220,48 @@ remove_disk_without_mercy() {
 }
 
 remove_target() {
-    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/target/$1
+    curl --insecure --user admin:admin -d target_iqn=$1 -X DELETE http://$ENDPOINT/api/v2/target
 }
 
 
 create_target() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/target/$1
+    curl --insecure --user admin:admin -d target_iqn=$1 -X PUT http://$ENDPOINT/api/v2/target
 }
 
 
 set_qos() {
-    curl --insecure --user admin:admin -d conf_rbd_qos_bps_limit=$2 -d conf_rbd_qos_write_bps_limit=$2 -d conf_rbd_qos_read_bps_limit=$2 -d conf_rbd_qos_iops_limit=$1 -d conf_rbd_qos_read_iops_limit=$1 -d conf_rbd_qos_write_iops_limit=$1 -X PUT http://$ENDPOINT/api/disk/qos/rbd/$3
+    curl --insecure --user admin:admin -d pool=rbd -d image=$3 -d conf_rbd_qos_bps_limit=$2 -d conf_rbd_qos_write_bps_limit=$2 -d conf_rbd_qos_read_bps_limit=$2 -d conf_rbd_qos_iops_limit=$1 -d conf_rbd_qos_read_iops_limit=$1 -d conf_rbd_qos_write_iops_limit=$1 -X PUT http://$ENDPOINT/api/qos
 }
 
 get_qos() {
-    curl --insecure --user admin:admin  -X GET http://$ENDPOINT/api/disk/qos/rbd/$1
+    curl --insecure --user admin:admin -d pool=rbd -d image=$1 -X GET http://$ENDPOINT/api/qos
 }
 
 map_lun_to_target() {
     #DISK=$1
     #TARGET=$2
-    curl --insecure --user admin:admin -d disk=rbd/$1 -X PUT http://$ENDPOINT/api/v2/targetlun/$2
+    curl --insecure --user admin:admin -d target_iqn=$2 -d disk=rbd/$1 -X PUT http://$ENDPOINT/api/v2/targetlun
 }
 
 get_target_luns() {
-    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/v2/targetlun/$1
+    curl --insecure --user admin:admin -d target_iqn=$2 -X GET http://$ENDPOINT/api/v2/targetlun
 }
 
 unmap_lun_from_target() {
     #DISK=$1
     #TARGET=$2
-    curl --insecure --user admin:admin -d disk=rbd/$1 -X DELETE http://$ENDPOINT/api/v2/targetlun/$2
+    curl --insecure --user admin:admin -d target_iqn=$2 -d disk=rbd/$1 -X DELETE http://$ENDPOINT/api/v2/targetlun
 }
 
 s_create_100_targets() {
-    for i in `seq 1 10`
+    for i in `seq 1 100`
     do
         time create_target "$TARGET""googlechrome""$i"
     done
 }
 
 s_remove_100_targets() {
-    for i in `seq 1 200`
+    for i in `seq 1 100`
     do
         time remove_target "$TARGET""googlechrome""$i"
     done
@@ -303,12 +306,15 @@ s_testqos_and_test_size() {
 }
 
 s_test_mapping_10() {
-    for i in `seq 1 3`
+    for i in `seq 1 1`
     do
         TARGET2=$"$TARGET"googlechrome"$i"
         create_target $TARGET2
-        create_disk didi$i 10
-        map_lun_to_target didi$i $TARGET2
+        create_disk dididi$i 10
+        set_qos 100 100 dididi$i
+        create_snapshot dididi$i snap1
+        create_snapshot dididi$i snap2
+        map_lun_to_target dididi$i $TARGET2
     done
 }
 
@@ -322,28 +328,28 @@ s_test_unmapping_10() {
 }
 s_test_mapping() {
     TARGET2=$"$TARGET"didi2
-    #remove_gateway $TARGET2
     #remove_target $TARGET2
     create_target $TARGET2
-    #create_gateway $TARGET2
     create_disk test 10
     map_lun_to_target test $TARGET2
 }
 
 s_test_unmapping() {
     TARGET2=$"$TARGET"didi
-    #remove_gateway $TARGET2
     #remove_target $TARGET2
     create_target $TARGET2
-    create_gateway $TARGET2
     create_disk test 1024
     map_lun_to_target test $TARGET2
     unmap_lun_from_target test $TARGET2
 }
 
 s_qos_simpletest() {
-    time set_qos 1110 1110 test
-    time get_qos test
+    for i in `seq 1 100`
+    do
+        create_disk test"$i" 10
+        time set_qos $(($i*1112)) 1112 test"$i"
+        time get_qos test"$i"
+    done
 }
 
 s_client_simpletest() {
@@ -351,7 +357,6 @@ s_client_simpletest() {
     CLIENT=$"$TARGET"didiclient
     create_target $TARGET2
     gwcli ls
-    #create_gateway $TARGET2
     gwcli ls
     create_client $TARGET2  $CLIENT
     gwcli ls
@@ -365,19 +370,28 @@ s_addluntoclient() {
     TARGET2=$"$TARGET"didi
     CLIENT=$"$TARGET"didiclient
     create_target $TARGET2
-    create_gateway $TARGET2
-    create_disk test 1024
+    create_disk test 10
     map_lun_to_target test $TARGET2
     create_user $CLIENT
     create_client $TARGET2  $CLIENT
     addmappedlun $TARGET2  $CLIENT test
 }
 
+s_remove_lun_from_client() {
+    TARGET2=$"$TARGET"didi
+    CLIENT=$"$TARGET"didiclient
+    removemappedlun $TARGET2  $CLIENT test
+    remove_client $TARGET2  $CLIENT
+    remove_user $CLIENT
+    unmap_lun_from_target test $TARGET2
+    remove_disk test
+    remove_target $TARGET2
+}
+
 s_add100lunstoclient() {
     TARGET2=$"$TARGET"didi
     CLIENT=$"$TARGET"didiclient
     create_target $TARGET2
-    create_gateway $TARGET2
     create_client $TARGET2  $CLIENT
     for i in `seq 1 100`
     do
@@ -390,7 +404,6 @@ s_add100lunstoclient() {
 s_add100lunstoclient_sep() {
     TARGET2="$TARGET"didi
     create_target $TARGET2
-    create_gateway $TARGET2
 
     for j  in `seq 1 100`
     do
@@ -419,7 +432,6 @@ s_add100lunstoclient_sep() {
 s_aclgroup() {
     TARGET2="$TARGET"didi
     create_target $TARGET2
-    create_gateway $TARGET2
 
     for j  in `seq 1 1`
     do
@@ -481,7 +493,6 @@ s_aclgroup_multitarget() {
 
         NEWTARGET="$TARGET""didi""$k"
         create_target $NEWTARGET
-        create_gateway $NEWTARGET
 
         NEWTARGET="$TARGET"didi"$k"
         echo "starting create luns"
@@ -509,41 +520,58 @@ s_aclgroup_multitarget() {
     done
 }
 
-s_singletarget_nomappedlun() {
-    TARGETS_NR=1
-    LUN_PER_TARGET_NR=4
+s_multipletarget_alsomappedlun() {
+    TARGETS_NR=4
+    LUN_PER_TARGET_NR=1
+    CLIENTS_NR=1
+    for k in `seq  2 $TARGETS_NR`
+    do
+        date
+        echo "processing the $k target"
+        kk=`printf "%04d" $k`
+
+        NEWTARGET="$TARGET"applesafari"$kk"
+        time create_target $NEWTARGET
+        #curl --insecure --user admin:admin -d action='disable_acl' -X PUT http://$ENDPOINT/api/targetauth/iqn.8888-08.com.wuxingiapplesafari0001
+
+
+        echo "starting create luns"
+        for i in `seq 1 $LUN_PER_TARGET_NR`
+        do
+            ii=`printf "%04d" $i`
+            time create_disk safaritest"$kk"_"$ii" 10
+            time map_lun_to_target safaritest"$kk"_"$ii" $NEWTARGET
+        done
+
+        # create clients
+        for j in `seq 1 $CLIENTS_NR`
+        do
+            jj=`printf "%04d" $j`
+            NEWCLIENT="$TARGET""firefoxclient"
+            time create_user $NEWCLIENT"$kk""$jj"
+            time create_client $NEWTARGET  $NEWCLIENT"$kk""$jj"
+            time addmappedlun $NEWTARGET $NEWCLIENT"$kk""$jj"
+        done
+    done
+}
+
+s_multitarget_mapthem() {
+    TARGETS_NR=100
     CLIENTS_NR=4
     for k in `seq 1 $TARGETS_NR`
     do
         date
-        echo "processing the $k target"
-
-        NEWTARGET="$TARGET""didi""$k"
-        create_target $NEWTARGET
-        create_gateway $NEWTARGET
-
-        NEWTARGET="$TARGET"didi"$k"
-        echo "starting create luns"
-        for i in `seq 1 $LUN_PER_TARGET_NR`
-        do
-            create_disk test"$k"_$i 10
-            map_lun_to_target test"$k"_$i $NEWTARGET
-        done
-
-
-        NEWTARGET="$TARGET""didi""$k"
-
-        # create 10 clients
+        NEWTARGET="$TARGET"googlechrome"$k"
         for j in `seq 1 $CLIENTS_NR`
         do
             NEWCLIENT="$TARGET"didiclient
-            create_client $NEWTARGET  $NEWCLIENT"$j"
+            addmappedlun $NEWTARGET $NEWCLIENT"$j"
         done
     done
 }
 
 s_add_4_users_no_mappedlun() {
-    TARGETS_NR=1
+    TARGETS_NR=100
     LUN_PER_TARGET_NR=128
     CLIENTS_NR=100
     for k in `seq 1 $TARGETS_NR`
@@ -575,38 +603,38 @@ addpureclient() {
 }
 
 get_snapshot() {
-    curl --insecure --user admin:admin -X GET http://172.20.13.241:5000/api/disksnap/rbd/$1
+    curl --insecure --user admin:admin -d pool=rbd -d disk=$1 -X GET http://172.20.13.241:5000/api/snapshot
 }
 
 create_snapshot() {
-    curl --insecure --user admin:admin -d mode=create -X PUT http://172.20.13.241:5000/api/disksnap/rbd/$1/$2
+    curl --insecure --user admin:admin -d mode=create -d pool=rbd -d image=$1 -d name=$2 -X PUT http://172.20.13.241:5000/api/snapshot
 }
 
 remove_snapshot() {
-    curl --insecure --user admin:admin -X DELETE http://172.20.13.241:5000/api/disksnap/rbd/$1/$2
+    curl --insecure --user admin:admin -d pool=rbd -d image=$1 -d name=$2 -X DELETE http://172.20.13.241:5000/api/snapshot
 }
 
 s_snapshot() {
-    create_disk didi55 10
-    create_snapshot didi55 testsnap1
-    create_snapshot didi55 testsnap2
-    get_snapshot didi55 
-    remove_snapshot didi55 testsnap1
-    remove_snapshot didi55 testsnap2
-    get_snapshot didi55 
-    remove_disk didi55
+    create_disk didi66 10
+    create_snapshot didi66 testsnap1
+    create_snapshot didi66 testsnap2
+    #get_snapshot didi66 
+    #remove_snapshot didi66 testsnap1
+    #remove_snapshot didi66 testsnap2
+    get_snapshot didi66 
+    #remove_disk didi66
     rbd ls
 }
 
 bind_group() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroup/target/$1/$2
+    curl --insecure --user admin:admin -d groupname=$1 -d target_iqn=$2 -X PUT http://$ENDPOINT/api/v2/usergroup/target
 }
 unbind_group() {
-    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/usergroup/target/$1/$2
+    curl --insecure --user admin:admin -d groupname=$1 -d target_iqn=$2 -X DELETE http://$ENDPOINT/api/v2/usergroup/target
 }
 
 s_group_bind_unbind() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
+    curl --insecure --user admin:admin -d groupname=testasdf2 -X PUT http://$ENDPOINT/api/v2/usergroup
     create_target iqn.8888-08.com.wuxingididhahahaha
     create_target iqn.8888-08.com.wuxingididhahahaha2
     bind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha
@@ -616,15 +644,6 @@ s_group_bind_unbind() {
     getconfig
     unbind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha2
     getconfig
-}
-
-create_gw() {
-    curl --insecure --user admin:admin -d ip_address=172.20.13.242 -X PUT http://$ENDPOINT/api/gateway/$1/oceanstore-wuxingyi-node-242
-}
-s_test_gateway() {
-    TARGET2=$"$TARGET"didi
-    create_target $TARGET2
-    create_gw $TARGET2
 }
 
 #s_client_simpletest
@@ -661,16 +680,23 @@ s_test_gateway() {
 #s_snapshot
 #list_user_groups
 #get_user_auth
+#s_remove_lun_from_client
+#sleep 1
 #s_addluntoclient
 #s_group_bind_unbind
-#s_test_gateway
 #s_group_bind_unbind
 #s_test_mapping
 #s_create_1000_disks
 #s_test_mapping_10
-#s_create_100_targets
+#time s_create_100_targets
 #time s_remove_100_targets
-time s_test_mapping_10
-sleep 10
-time s_test_unmapping_10
+#time s_test_mapping_10
+#sleep 10
+#time s_test_unmapping_10
 #s_client_simpletest
+#s_singletarget_nomappedlun
+#s_multitarget_mapthem
+#time s_multipletarget_alsomappedlun
+s_qos_simpletest
+#s_test_mapping_10
+#s_group_bind_unbind
