@@ -9,6 +9,10 @@ discoveryauth() {
     curl --insecure --user admin:admin -d username=$USERNAME"2" -d password=$PASSWORD"2" -d mutual_username=myiscsiusername -d mutual_password=myiscsipassword -X PUT http://$ENDPOINT/api/discoveryauth
 }
 
+getconfig() {
+    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/config
+}
+
 
 apis() {
     curl --insecure --user admin:admin -X GET http://$ENDPOINT/api
@@ -213,12 +217,12 @@ remove_disk_without_mercy() {
 }
 
 remove_target() {
-    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/target/$1
+    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/target/$1
 }
 
 
 create_target() {
-    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/target/$1
+    curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/target/$1
 }
 
 
@@ -233,35 +237,35 @@ get_qos() {
 map_lun_to_target() {
     #DISK=$1
     #TARGET=$2
-    curl --insecure --user admin:admin -d disk=rbd/$1 -X PUT http://$ENDPOINT/api/targetlun/$2
+    curl --insecure --user admin:admin -d disk=rbd/$1 -X PUT http://$ENDPOINT/api/v2/targetlun/$2
 }
 
 get_target_luns() {
-    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/targetlun/$1
+    curl --insecure --user admin:admin -X GET http://$ENDPOINT/api/v2/targetlun/$1
 }
 
 unmap_lun_from_target() {
     #DISK=$1
     #TARGET=$2
-    curl --insecure --user admin:admin -d disk=rbd/$1 -X DELETE http://$ENDPOINT/api/targetlun/$2
+    curl --insecure --user admin:admin -d disk=rbd/$1 -X DELETE http://$ENDPOINT/api/v2/targetlun/$2
 }
 
 s_create_100_targets() {
     for i in `seq 1 10`
     do
-        time create_target "$TARGET""didi""$i"
+        time create_target "$TARGET""googlechrome""$i"
     done
 }
 
 s_remove_100_targets() {
-    for i in `seq 1 10`
+    for i in `seq 1 200`
     do
-        time remove_target "$TARGET""didi""$i"
+        time remove_target "$TARGET""googlechrome""$i"
     done
 }
 
 s_create_1000_disks() {
-    for i in `seq 1 1000`
+    for i in `seq 1 10`
     do
         time create_disk didi"$i" 10
     done
@@ -298,13 +302,31 @@ s_testqos_and_test_size() {
     #time remove_disk didi
 }
 
+s_test_mapping_10() {
+    for i in `seq 1 3`
+    do
+        TARGET2=$"$TARGET"googlechrome"$i"
+        create_target $TARGET2
+        create_disk didi$i 10
+        map_lun_to_target didi$i $TARGET2
+    done
+}
+
+s_test_unmapping_10() {
+    for i in `seq 1 3`
+    do
+        TARGET2=$"$TARGET"googlechrome"$i"
+        unmap_lun_from_target didi$i $TARGET2
+        remove_target $TARGET2
+    done
+}
 s_test_mapping() {
-    TARGET2=$"$TARGET"didi
-    remove_gateway $TARGET2
-    remove_target $TARGET2
+    TARGET2=$"$TARGET"didi2
+    #remove_gateway $TARGET2
+    #remove_target $TARGET2
     create_target $TARGET2
-    create_gateway $TARGET2
-    create_disk test 1024
+    #create_gateway $TARGET2
+    create_disk test 10
     map_lun_to_target test $TARGET2
 }
 
@@ -329,7 +351,7 @@ s_client_simpletest() {
     CLIENT=$"$TARGET"didiclient
     create_target $TARGET2
     gwcli ls
-    create_gateway $TARGET2
+    #create_gateway $TARGET2
     gwcli ls
     create_client $TARGET2  $CLIENT
     gwcli ls
@@ -579,15 +601,31 @@ s_snapshot() {
 bind_group() {
     curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroup/target/$1/$2
 }
+unbind_group() {
+    curl --insecure --user admin:admin -X DELETE http://$ENDPOINT/api/v2/usergroup/target/$1/$2
+}
 
-s_group_bind() {
+s_group_bind_unbind() {
     curl --insecure --user admin:admin -X PUT http://$ENDPOINT/api/v2/usergroups/testasdf2
     create_target iqn.8888-08.com.wuxingididhahahaha
     create_target iqn.8888-08.com.wuxingididhahahaha2
     bind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha
     bind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha2
+    getconfig
+    unbind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha
+    getconfig
+    unbind_group testasdf2 iqn.8888-08.com.wuxingididhahahaha2
+    getconfig
 }
 
+create_gw() {
+    curl --insecure --user admin:admin -d ip_address=172.20.13.242 -X PUT http://$ENDPOINT/api/gateway/$1/oceanstore-wuxingyi-node-242
+}
+s_test_gateway() {
+    TARGET2=$"$TARGET"didi
+    create_target $TARGET2
+    create_gw $TARGET2
+}
 
 #s_client_simpletest
 #time addpureclient
@@ -624,4 +662,15 @@ s_group_bind() {
 #list_user_groups
 #get_user_auth
 #s_addluntoclient
-s_group_bind
+#s_group_bind_unbind
+#s_test_gateway
+#s_group_bind_unbind
+#s_test_mapping
+#s_create_1000_disks
+#s_test_mapping_10
+#s_create_100_targets
+#time s_remove_100_targets
+time s_test_mapping_10
+sleep 10
+time s_test_unmapping_10
+#s_client_simpletest
